@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- C Gradient: Dark Indigo Metallic -->
+    <linearGradient id="cMetallic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#110d2c" />
+      <stop offset="50%" stop-color="#211c4d" />
+      <stop offset="100%" stop-color="#0a081a" />
+    </linearGradient>
+
+    <!-- X Gradient: Glowing Pink/Purple to Neon Violet -->
+    <linearGradient id="xNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="50%" stop-color="#d946ef" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <!-- Edge Glow Highlight for C -->
+    <linearGradient id="cHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @import url("https://fonts.cdnfonts.com/css/ethnocentric");
+    .logo-text {
+      font-family: 'Ethnocentric Rg', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+  </style>
+
+  <g transform="translate(10, 5)">
+    <!-- C Shape (Chamfered Blocky Hexagon Outline) -->
+    <path d="M 55,20 L 35,20 L 20,35 L 20,65 L 35,80 L 55,80 L 55,70 L 39,70 L 30,61 L 30,39 L 39,30 L 55,30 Z" 
+          fill="url(#cMetallic)" 
+          stroke="#4f46e5" 
+          stroke-width="1.5" />
+    
+    <!-- C Inner Highlight Edge -->
+    <path d="M 37,32 L 28,41 L 28,59 L 37,68" 
+          fill="none" 
+          stroke="url(#cHighlight)" 
+          stroke-width="1" 
+          opacity="0.8" />
+
+    <!-- X Shape (Intersecting Metallic Magenta Blades) -->
+    <path d="M 60,50 L 45,35 L 52,32 L 63,45 L 80,25 L 85,30 L 67,52 L 82,75 L 77,80 L 61,58 L 38,78 L 33,73 Z" 
+          fill="url(#xNeon)" 
+          stroke="#ffffff"
+          stroke-width="0.5"
+          filter="url(#glow)" />
+  </g>
+
+  <!-- CRITEXAN Text in Ethnocentric font -->
+  <text x="60" y="112" 
+        class="logo-text"
+        font-size="6.5" 
+        font-weight="900" 
+        letter-spacing="2" 
+        fill="#ffffff" 
+        text-anchor="middle">CRITEXAN</text>
+</svg>
