@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="banner.png" width="100%" alt="CRITEXAN Banner">
+</p>
 # Critexan — Pre-Launch Gaming Platform Website
 
 CRITEXAN™ is an upcoming all-in-one gaming and creator platform built to bring the entire gaming ecosystem together in one place. Whether you're a gamer, content creator, esports enthusiast, or community leader, CRITEXAN™ is designed to help you watch gaming videos, discover shorts, livestream gameplay, participate in tournaments, build communities, chat with friends, showcase your profile, and grow your audience through a modern, high-performance platform.
@@ -77,13 +80,3 @@ To compile the production-ready optimized build:
 npm run build
 ```
 The output assets will be generated inside the `dist/` directory.
-
-<p align="center">
-  <img src="./file_00000000a22c81fd821e8cff5d6df59c.pngpng" alt="Critexan Banner" width="100%">
-</p>
-
-# CRITEXAN
-
-**The Next-Generation Gaming Platform**
-
-A modern platform for gamers, creators, live streaming, esports, and gaming communities.
