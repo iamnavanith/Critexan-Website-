@@ -77,3 +77,13 @@ To compile the production-ready optimized build:
 npm run build
 ```
 The output assets will be generated inside the `dist/` directory.
+
+<p align="center">
+  <img src="./banner.png" alt="Critexan Banner" width="100%">
+</p>
+
+# CRITEXAN
+
+**The Next-Generation Gaming Platform**
+
+A modern platform for gamers, creators, live streaming, esports, and gaming communities.
