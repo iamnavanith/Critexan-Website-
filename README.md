@@ -79,7 +79,7 @@ npm run build
 The output assets will be generated inside the `dist/` directory.
 
 <p align="center">
-  <img src="./banner.png" alt="Critexan Banner" width="100%">
+  <img src="./file_00000000a22c81fd821e8cff5d6df59c.pngpng" alt="Critexan Banner" width="100%">
 </p>
 
 # CRITEXAN
